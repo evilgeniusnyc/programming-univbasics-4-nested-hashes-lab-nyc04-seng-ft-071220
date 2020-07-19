@@ -130,5 +130,6 @@ def adding_to_dennis
       }
     }
 
-adding_to_dennis [:dennis_ritchie][:languages][1]).toinclude("Assembly")
+adding_to_dennis [:dennis_ritchie][:languages][1].toinclude("Assembly")
+	programmer_hash
 end
